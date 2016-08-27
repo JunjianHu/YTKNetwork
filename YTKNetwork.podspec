@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source_files  = "YTKNetwork/*.{h,m}"
   s.platform      = :ios, '6.0'
   s.requires_arc  = true
-  s.dependency "AFNetworking", "~> 2.0"
-  s.dependency "AFDownloadRequestOperation", "~> 2.0"
+  s.dependency "AFNetworking", "~> 3.1.0"
+  s.dependency "AFDownloadRequestOperation", "~> 2.0.1"
 
 end
